@@ -1,0 +1,32 @@
+/* =========================================
+   CONFIGURACIÓN GLOBAL
+   ========================================= */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ocupa el alto total de la pantalla */
+}
+
+main {
+    flex: 1 0 auto;
+    /* Empuja el footer hacia abajo */
+}
+
+/* =========================================
+   BOTONES Y NAVEGACIÓN
+   ========================================= */
+
+/* Limpieza de iconos nativos del navegador */
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
